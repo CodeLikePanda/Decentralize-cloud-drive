@@ -21,8 +21,11 @@ Process to follow while deploying this application:
 4.2.3 Select "import account" and paste the following private key
 4.2.4 Now you are all set with metamask account
 5. Copy smart_contract_address and paste it at location: ./client/scr/App.js in varaible "contractAddress"
-6. refresh all pages and terminal.
-7. Open website using react.js and you are all set...
+6. Make account at Pinata and add Pinata API at https://app.pinata.cloud/pinmanager
+6.1 Create API key 
+6.2 Inside FileUpload.js at resFile Object insert pinata_api_key and pinata_secret_api_key.
+7. refresh all pages and terminal.
+8. Open website using react.js and you are all set...
 
 
 Smart contract is at ./contract/Upload.sol written in solidity, to test smart contract use: Remix IDE
